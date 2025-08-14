@@ -35,7 +35,7 @@ textarea {
     border-radius: 4px;
 }
 
-input[type="submit"] {
+button[type="submit"] {
     background-color: #5cb85c;
     color: white;
     padding: 10px 15px;
@@ -45,7 +45,7 @@ input[type="submit"] {
     font-size: 16px;
 }
 
-input[type="submit"]:hover {
+button[type="submit"]:hover {
     background-color: #4cae4c;
 }
 

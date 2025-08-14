@@ -9,7 +9,7 @@
 <body>
     <div class="container">
         <h1>Formulario de Informe Pericial</h1>
-        <form id="informeForm">
+        <form id="reportForm">
             <label for="nombreAsegurado">Nombre del Asegurado:</label>
             <input type="text" id="nombreAsegurado" name="nombreAsegurado" required>
 
@@ -25,6 +25,7 @@
             <button type="submit">Generar Informe PDF</button>
         </form>
     </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
     <script src="js/main.js"></script>
     <script src="js/pdf-generator.js"></script>
 </body>
